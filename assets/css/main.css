@@ -3367,12 +3367,24 @@ body.is-ie .wrapper.fullscreen {
 
 @media screen and (max-width: 736px) {
   .wrapper.fullscreen {
-    padding: 2em 0;
-    min-height: 0;
+    padding: 0;
+    min-height: calc(100vh - 3.5em);
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
   }
 
   body.is-ie .wrapper.fullscreen {
-    height: auto;
+    height: calc(100vh - 3.5em);
   }
 }
 
@@ -3541,7 +3553,7 @@ body.is-preload .wrapper.fade > .inner {
 
 @media screen and (max-width: 736px) {
   #sidebar + #wrapper {
-    padding-top: 0;
+    padding-top: 3.5em;
   }
 }
 
@@ -3921,7 +3933,66 @@ body.is-preload #sidebar nav ul li {
 
 @media screen and (max-width: 736px) {
   #sidebar {
-    display: none;
+    height: 3.5em;
+    display: block;
+    background: #1b419c;
+    overflow: visible;
+  }
+
+  #sidebar > .inner {
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    height: inherit;
+    line-height: inherit;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
+  #sidebar nav {
+    height: inherit;
+    line-height: inherit;
+  }
+
+  #sidebar nav ul {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    height: inherit;
+    line-height: inherit;
+    margin: 0;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
+  #sidebar nav ul li {
+    display: block;
+    height: inherit;
+    line-height: inherit;
+    margin: 0 0.75em;
+    padding: 0;
+  }
+
+  #sidebar nav a {
+    height: inherit;
+    line-height: inherit;
+    padding: 0;
+    font-size: 0.5em;
+  }
+
+  #sidebar nav a:after {
+    background-image: none;
+    background-color: #4a6fa5;
   }
 }
 

@@ -81,3 +81,78 @@ body.is-preload #sidebar > .inner {
 #sidebar nav a.active:after {
   max-width: 100%;
 }
+
+/* Mobile Navigation Bar */
+@media screen and (max-width: 736px) {
+  #sidebar {
+    height: 3.5em;
+    line-height: 3.5em;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+  }
+
+  #sidebar > .inner {
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    height: inherit;
+    line-height: inherit;
+    min-height: auto;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
+  #sidebar nav {
+    height: inherit;
+    line-height: inherit;
+  }
+
+  #sidebar nav > ul {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    height: inherit;
+    line-height: inherit;
+    margin: 0;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+  }
+
+  #sidebar nav > ul > li {
+    display: block;
+    height: inherit;
+    line-height: inherit;
+    margin: 0 0.5em;
+    padding: 0;
+    transform: none;
+    opacity: 1;
+  }
+
+  #sidebar nav a {
+    height: inherit;
+    line-height: inherit;
+    padding: 0 0.5em;
+    font-size: 0.5em;
+  }
+
+  #sidebar nav a:after {
+    background-image: none;
+    background-color: #4a6fa5;
+  }
+}
