@@ -1,3 +1,0 @@
-# Netlify config — publish the site from the repository root
-[build]
-  publish = "."
