@@ -43,7 +43,7 @@ body.is-preload #sidebar > .inner {
 
 #sidebar nav a {
   border: 0;
-  color: var(--text-primary);
+  color: #ffffff;
   display: block;
   font-size: 0.6em;
   font-weight: 600;
@@ -68,7 +68,7 @@ body.is-preload #sidebar > .inner {
 }
 
 #sidebar nav a:before {
-  background: var(--bg-section);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 #sidebar nav a:after {

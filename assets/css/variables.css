@@ -3,40 +3,45 @@
    ======================================== */
 
 :root {
-  /* Primary Brand Colors */
-  --color-primary: #2b4a7c;
-  --color-primary-light: #3a5ca8;
-  --color-primary-dark: #223a7b;
+  /* Primary Brand Colors - Sidebar Only */
+  --color-primary: #1b419c;
+  --color-primary-light: #2563eb;
+  --color-primary-dark: #0f2557;
 
   /* Accent Colors */
-  --color-accent-blue: #4a6fa5;
-  --color-accent-muted: #5a6b7d;
+  --color-accent-blue: #3b82f6;
+  --color-accent-muted: #666666;
   --color-accent-red: #c94b4b;
 
-  /* Background Colors */
-  --bg-body: #223a7b;
-  --bg-sidebar: #2b4a7c;
-  --bg-section: #312450;
+  /* Background Colors - White/Black Theme */
+  --bg-body: #ffffff;
+  --bg-sidebar: #1b419c;
+  --bg-section: #f5f5f5;
   --bg-white: #ffffff;
-  --bg-overlay: rgba(255, 255, 255, 0.05);
+  --bg-overlay: rgba(0, 0, 0, 0.05);
 
-  /* Text Colors */
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.5);
+  /* Text Colors - Black Text on White */
+  --text-primary: #000000;
+  --text-secondary: #666666;
   --text-dark: #000000;
-  --text-muted: rgba(255, 255, 255, 0.35);
+  --text-muted: #999999;
 
   /* Interactive States */
-  --link-default: #ffffff;
-  --link-hover: #4a6fa5;
-  --button-bg: #4a6fa5;
-  --button-hover: #3a5ca8;
+  --link-default: #1b419c;
+  --link-hover: #2563eb;
+  --button-bg: #1b419c;
+  --button-hover: #0f2557;
 
   /* Borders & Lines */
-  --border-light: rgba(255, 255, 255, 0.15);
-  --border-lighter: rgba(255, 255, 255, 0.05);
+  --border-light: rgba(0, 0, 0, 0.15);
+  --border-lighter: rgba(0, 0, 0, 0.05);
 
-  /* Gradients */
-  --gradient-red-blue: linear-gradient(to right, #c94b4b, #4a6fa5);
-  --gradient-blue: linear-gradient(to right, #223a7b, #3a5ca8);
+  /* Form Inputs */
+  --color-input-bg: #ffffff;
+  --color-input-border: #dddddd;
+  --color-input-focus: #1b419c;
+
+  /* Gradients - Keep colorful for sidebar only */
+  --gradient-red-blue: linear-gradient(to right, #c94b4b, #2563eb);
+  --gradient-blue: linear-gradient(to right, #0f2557, #2563eb);
 }

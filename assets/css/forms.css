@@ -24,15 +24,16 @@ input[type="tel"],
 select,
 textarea {
   appearance: none;
-  background: var(--color-input-bg);
-  border: none;
-  border-radius: 0;
-  color: inherit;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 4px;
+  color: #333333;
   display: block;
   outline: 0;
   padding: 0 1em;
   text-decoration: none;
   width: 100%;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 input[type="text"]:focus,
@@ -41,7 +42,8 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  background: var(--color-input-focus);
+  background: #f8f9fa;
+  border-color: #2b4a7c;
 }
 
 input[type="text"],
