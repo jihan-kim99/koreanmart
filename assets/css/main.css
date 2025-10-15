@@ -2623,7 +2623,7 @@ input[type="radio"] + label:before {
 }
 
 .wrapper.style1 .icon.major:before {
-  color: #5e42a6;
+  color: #5a6b7d;
 }
 
 .wrapper.style1-alt .icon.major:before {
@@ -3310,7 +3310,7 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color: #5a6b7d;
 }
 
 .wrapper.style1-alt {
@@ -3436,7 +3436,7 @@ body.is-preload .wrapper.fade > .inner {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #5e42a6;
+  background-color: #5a6b7d;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -3580,7 +3580,7 @@ body.is-preload .wrapper.fade > .inner {
 
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #312450;
+  background: #2b4a7c;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -3822,10 +3822,10 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-  background-image: -moz-linear-gradient(to right, #5e42a6, #4a6fa5);
-  background-image: -webkit-linear-gradient(to right, #5e42a6, #4a6fa5);
-  background-image: -ms-linear-gradient(to right, #5e42a6, #4a6fa5);
-  background-image: linear-gradient(to right, #5e42a6, #4a6fa5);
+  background-image: -moz-linear-gradient(to right, #c94b4b, #4a6fa5);
+  background-image: -webkit-linear-gradient(to right, #c94b4b, #4a6fa5);
+  background-image: -ms-linear-gradient(to right, #c94b4b, #4a6fa5);
+  background-image: linear-gradient(to right, #c94b4b, #4a6fa5);
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;

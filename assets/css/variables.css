@@ -1,0 +1,42 @@
+/* ========================================
+   Color Variables - Kearney Lake Food Mart
+   ======================================== */
+
+:root {
+  /* Primary Brand Colors */
+  --color-primary: #2b4a7c;
+  --color-primary-light: #3a5ca8;
+  --color-primary-dark: #223a7b;
+
+  /* Accent Colors */
+  --color-accent-blue: #4a6fa5;
+  --color-accent-muted: #5a6b7d;
+  --color-accent-red: #c94b4b;
+
+  /* Background Colors */
+  --bg-body: #223a7b;
+  --bg-sidebar: #2b4a7c;
+  --bg-section: #312450;
+  --bg-white: #ffffff;
+  --bg-overlay: rgba(255, 255, 255, 0.05);
+
+  /* Text Colors */
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.5);
+  --text-dark: #000000;
+  --text-muted: rgba(255, 255, 255, 0.35);
+
+  /* Interactive States */
+  --link-default: #ffffff;
+  --link-hover: #4a6fa5;
+  --button-bg: #4a6fa5;
+  --button-hover: #3a5ca8;
+
+  /* Borders & Lines */
+  --border-light: rgba(255, 255, 255, 0.15);
+  --border-lighter: rgba(255, 255, 255, 0.05);
+
+  /* Gradients */
+  --gradient-red-blue: linear-gradient(to right, #c94b4b, #4a6fa5);
+  --gradient-blue: linear-gradient(to right, #223a7b, #3a5ca8);
+}

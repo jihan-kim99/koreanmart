@@ -1,0 +1,127 @@
+/* ========================================
+   Layout Components
+   ======================================== */
+
+/* Wrapper */
+#wrapper {
+  background: inherit;
+}
+
+/* Adjust wrapper position when sidebar is present */
+#sidebar + #wrapper {
+  margin-left: 18em;
+  width: calc(100% - 18em);
+}
+
+/* Responsive: horizontal top bar */
+@media screen and (max-width: 1280px) {
+  #sidebar + #wrapper {
+    margin-left: 0;
+    padding-top: 3.5em;
+    width: 100%;
+  }
+}
+
+/* Responsive: mobile (no sidebar) */
+@media screen and (max-width: 736px) {
+  #sidebar + #wrapper {
+    padding-top: 0;
+    width: 100%;
+  }
+}
+
+/* Section Wrappers */
+.wrapper {
+  background-color: var(--bg-body);
+  position: relative;
+}
+
+.wrapper.style1 {
+  padding: 6em 0 4em 0;
+}
+
+.wrapper.style2 {
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+}
+
+.wrapper.style3 {
+  background-color: var(--bg-body);
+}
+
+.wrapper.fade-up,
+.wrapper.fade-down {
+  position: relative;
+}
+
+/* Spotlights */
+.spotlights {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.spotlights > section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.spotlights > section > .image {
+  background-position: center center;
+  background-size: cover;
+  border-radius: 0;
+  display: block;
+  height: 40vh;
+  min-height: 25em;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.spotlights > section > .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4em 3em 2em 3em;
+  width: 100%;
+}
+
+.spotlights > section > .content > .inner {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 40em;
+}
+
+/* Inner Container */
+.inner {
+  margin: 0 auto;
+  max-width: 65em;
+  width: calc(100% - 6em);
+}
+
+/* Footer */
+#footer {
+  background: inherit;
+  padding: 5em 0 3em 0;
+}
+
+/* Adjust footer position when sidebar is present */
+#sidebar + #wrapper + #footer {
+  margin-left: 18em;
+  width: calc(100% - 18em);
+}
+
+/* Responsive: horizontal top bar */
+@media screen and (max-width: 1280px) {
+  #sidebar + #wrapper + #footer {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+#footer .inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}

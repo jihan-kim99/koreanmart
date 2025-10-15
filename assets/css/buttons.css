@@ -1,0 +1,56 @@
+/* ========================================
+   Button Component
+   ======================================== */
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.button {
+  appearance: none;
+  background-color: var(--button-bg);
+  border: 0;
+  border-radius: 0;
+  color: var(--text-primary) !important;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 600;
+  height: 3.5em;
+  letter-spacing: 0.25em;
+  line-height: 3.5em;
+  padding: 0 2.25em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background-color 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+input[type="submit"]:active,
+input[type="reset"]:active,
+input[type="button"]:active,
+button:active,
+.button:active {
+  background-color: var(--color-accent-blue);
+}
+
+.button.fit {
+  width: 100%;
+}
+
+.button.small {
+  font-size: 0.6em;
+}
+
+.button.large {
+  font-size: 1em;
+}
